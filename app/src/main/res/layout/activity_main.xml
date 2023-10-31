@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/text_lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/bem_vindo_ao_app_festa_ano_novo"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/text_lbl1"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/text_lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/text_lbl1"
+        android:text="@string/informe_aqui_o_seu_nome"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/text_name_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/text_lbl2"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/text_lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/text_name_user"
+        android:text="@string/informe_onde_ser_sua_festa_de_ano_novo"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/text_party"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_lbl3"
+        android:layout_marginTop="2dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button_continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_background"
+        android:text="@string/seguir"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="20sp"
+        app:backgroundTint="@color/colorAccent" />
+
+</RelativeLayout>

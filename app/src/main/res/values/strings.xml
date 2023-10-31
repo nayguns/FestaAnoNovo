@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FestaAnoNovo</string>
+    <string name="dias_restantes_para_o_final_do_ano">Dias restantes para o final do Ano!</string>
+    <string name="voc_vai_participar">Você vai participar?</string>
+    <string name="dias">dias</string>
+    <string name="nao_confirmado">Não confirmado</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="informe_onde_ser_sua_festa_de_ano_novo">Informe onde será sua Festa de Ano Novo</string>
+    <string name="informe_aqui_o_seu_nome">Informe aqui o seu nome:</string>
+    <string name="seguir">SEGUIR</string>
+    <string name="bem_vindo_ao_app_festa_ano_novo">Bem vindo ao App - Festa Ano Novo</string>
+</resources>
